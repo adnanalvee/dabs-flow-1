@@ -15,11 +15,11 @@ targets:
     workspace:
       host: https://436272682483314.4.gcp.databricks.com
     run_as:
-      service_principal_name: 205c61cc-171e-4646-a18e-634943a03808
+      service_principal_name: adx-sp-1
 
   prod:
     mode: production
     workspace:
       host:  https://2658405265920554.4.gcp.databricks.com
     run_as:
-      service_principal_name: 205c61cc-171e-4646-a18e-634943a03808
+      service_principal_name: adx-sp-1
